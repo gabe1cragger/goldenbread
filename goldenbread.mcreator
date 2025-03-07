@@ -1,0 +1,58 @@
+{
+  "mod_elements": [
+    {
+      "name": "GoldenBread",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_bread",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/goldenbread/models/item/golden_bread.json",
+          "src/main/java/net/mcreator/goldenbread/item/GoldenBreadItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldenBreadFromNuggets",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_bread_from_nuggets",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/goldenbread/recipes/golden_bread_from_nuggets.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.goldenbread.golden_bread": "Golden Bread"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "goldenbread",
+    "modName": "Golden Bread",
+    "version": "1.0.0",
+    "author": "Gabe, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.goldenbread"
+  },
+  "mcreatorVersion": 202400452410
+}
